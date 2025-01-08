@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/xgvvpdon" method="POST">
+        <fieldset>
+        <legend>Registration Form</legend>
+        <br>
+        <table>
+            <tr>
+                <th><label for="Name">Name</label></th>
+                <td><input type="text" placeholder="Enter your Name" name="Name" id="Name"></td>
+            </tr>
+            <tr>
+                <th><label for="Email">Email</label></th>
+                <td><input type="email" placeholder="Enter your Email" name="Email" id="Email"></td>
+            </tr>
+            <tr>
+                <th><label for="password">Password</label></th>
+                <td><input type="password" placeholder="Enter your Password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <th><label for="age">Age</label></th>
+                <td><input type="number" placeholder="Enter your Age" name="age" id="age"></td>
+            </tr>
+            <tr>
+                <th><label for="contact">Contact</label></th>
+                <td><input type="tel" placeholder="Enter your Contact Number" name="contact" id="contact"></td>
+            </tr>
+            <tr>
+                <th><label for="dob">DOB</label></th>
+                <td><input type="date" placeholder="Enter your DOB" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <th><label for="year">Passed Out</label></th>
+                <td><input type="year" placeholder="Enter your Passed Out Year" name="year" id="year"></td>
+            </tr>
+            <tr>
+                <th><label for="image">Upload Your Image</label></th>
+                <td><input type="file" name="image" id="image"></td>
+            </tr>
+            <tr>
+                <th><label>Gender</label></th>
+                <td>
+                    <input type="radio" value="Male" name="Gender" id="male"> Male
+                    <input type="radio" value="Female" name="Gender" id="female"> Female
+                    <input type="radio" value="others" name="Gender" id="others"> Others
+                </td>
+            </tr>
+            <tr>
+                <th><label>Language</label></th>
+                <td>
+                    <input type="checkbox" value="Python" name="lang" id="python"> Python
+                    <input type="checkbox" value="C" name="lang" id="c"> C
+                    <input type="checkbox" value="Java" name="lang" id="java"> Java
+                </td>
+            </tr>
+            <tr>
+                <th><label for="color">Select Your Color</label></th>
+                <td><input type="color" name="color" id="color"></td>
+            </tr>
+            <tr>
+                <th><label for="link">Provide your LinkedIn profile link</label></th>
+                <td><input type="url" name="link" id="link"></td>
+            </tr>
+           
+        </table>
+        <button><b>Submit</b></button>
+        <br><br>
+    </fieldset>
+    </form>
+</body>
+</html>
